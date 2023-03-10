@@ -44,9 +44,32 @@
         else{
             echo("sors");
         }
+
+        $info = "<h1>Titre de niveau 1 </h1>";
+
+        echo strip_tags($info);
+
+        $prenom = "jordan";
+        echo(ucfirst($prenom));
+
+        $heros = ["Batman", "Superman", "Flash"];
+
+        var_dump($heros);
+
+        echo $heros[0];
+
+        // tableau associatif
+        $batman = [
+            "nom" => "Batman",
+            "vraiNom" => "Bruce Wayne"
+        ];
+
+        var_dump($batman);
+
+        echo $batman["vraiNom"];
     ?>
 
-    
+
 
 </body>
 </html>
